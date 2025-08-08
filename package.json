@@ -1,0 +1,17 @@
+{
+  "name": "learn-node",
+  "version": "1.0.0",
+  "description": "nodeJS learning",
+  "main": "NodeWorking.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node NodeWorking"
+  },
+  "keywords": [
+    "Node",
+    "Js"
+  ],
+  "author": "j",
+  "license": "ISC"
+}
