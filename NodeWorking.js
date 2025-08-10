@@ -2,6 +2,8 @@ import fs, { stat } from "fs";
 import crypto from "crypto";
 
 const cryptoHashing = crypto;
+console.log("cryptoHashing", cryptoHashing);
+
 const threadPool = (process.env.UV_THREAD_POOL = 10);
 console.log(threadPool);
 const start = Date.now();
